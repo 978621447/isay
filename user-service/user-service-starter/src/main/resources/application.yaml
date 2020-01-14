@@ -2,7 +2,7 @@ server:
   port: 8002
 spring:
   application:
-    name: user-service
+    name: com.wjy.user-service
   datasource:
     username: root
     password: root
