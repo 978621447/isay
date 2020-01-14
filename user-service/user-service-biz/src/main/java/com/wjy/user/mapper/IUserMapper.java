@@ -1,6 +1,6 @@
 package com.wjy.user.mapper;
 
-import com.wjy.user.entity.User;
+import com.wjy.user.domain.User;
 import org.springframework.stereotype.Component;
 
 /**

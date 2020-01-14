@@ -12,10 +12,6 @@
     <artifactId>user-service-reference</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>com.wjy</groupId>
-            <artifactId>user-service-bean</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+
     </dependencies>
 </project>

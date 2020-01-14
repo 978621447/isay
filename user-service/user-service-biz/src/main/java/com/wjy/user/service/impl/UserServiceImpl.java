@@ -1,6 +1,6 @@
 package com.wjy.user.service.impl;
 
-import com.wjy.user.entity.User;
+import com.wjy.user.domain.User;
 import com.wjy.user.mapper.IUserMapper;
 import com.wjy.user.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;

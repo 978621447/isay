@@ -1,6 +1,6 @@
 package com.wjy.user.controller;
 
-import com.wjy.user.entity.User;
+import com.wjy.user.domain.User;
 import com.wjy.user.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author WangJinYi 2020/1/12
  */
-@RequestMapping("/com/wjy/user")
+@RequestMapping("/user")
 @RestController
 public class UserController {
 

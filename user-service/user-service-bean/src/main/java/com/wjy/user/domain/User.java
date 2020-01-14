@@ -1,4 +1,4 @@
-package com.wjy.user.entity;
+package com.wjy.user.domain;
 
 public class User {
     private Integer userId;
