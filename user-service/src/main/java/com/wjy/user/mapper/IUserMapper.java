@@ -1,5 +1,6 @@
 package com.wjy.user.mapper;
 
+import com.wjy.user.entity.User;
 import org.springframework.stereotype.Component;
 
 /**
@@ -7,5 +8,17 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public interface IUserMapper {
+    int deleteByPrimaryKey(Integer userId);
+
+    int insert(User record);
+
+    int insertSelective(User record);
+
+    User selectByPrimaryKey(Integer userId);
+
+    int updateByPrimaryKeySelective(User record);
+
+    int updateByPrimaryKey(User record);
+
     String test();
 }

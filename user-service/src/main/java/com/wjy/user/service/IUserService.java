@@ -1,10 +1,14 @@
 package com.wjy.user.service;
 
+import com.wjy.user.entity.User;
+
 /**
  * @author WangJinYi 2020/1/13
  */
 public interface IUserService {
 
     String test();
+
+    User getById(Integer userId);
 
 }

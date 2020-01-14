@@ -1,5 +1,6 @@
 package com.wjy.user.controller;
 
+import com.wjy.user.entity.User;
 import com.wjy.user.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,4 +26,10 @@ public class UserController {
     public String test() {
         return userService.test();
     }
+
+    @GetMapping("/getById")
+    public User getById(Integer userId) {
+        return userService.getById(userId);
+    }
+
 }
